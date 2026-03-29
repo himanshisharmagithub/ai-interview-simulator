@@ -1,60 +1,44 @@
-# ChatGPT_Clone 
-# InterviewBot
+🚀 InterviewBot
 
-![InterviewBot](interviewbot.jpg)
+InterviewBot is a simple AI-based mock interview app that I built to practice interview skills in a more realistic way. Instead of just reading questions, users can actually answer them and get feedback, which makes the whole preparation process more practical.
 
-InterviewBot is an AI-powered interview preparation and practice tool that helps users practice their interview skills in a simulated environment. It provides users with mock interview questions and evaluates their responses, giving feedback on their performance.
+💡 What it does
+Generates interview questions based on role
+Lets users answer (typing or speaking)
+Gives feedback on answers using AI
+Shows how well you performed
+Option to record interview sessions
 
-## Features
+Basically, it tries to simulate a real interview environment so you can practice better.
 
-- **Question Generation:** InterviewBot generates interview questions based on the user's selected role and experience level.
+🛠️ Tech Stack
+Frontend: React, TypeScript, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+AI: OpenAI API
+⚙️ How to run
+Clone the repo
+git clone https://github.com/your-username/interview-bot.git
+cd interview-bot
+Install dependencies
+npm install
+Add your API key
+Create a .env file in backend folder:
+OPENAI_API_KEY=your_api_key_here
+Run backend
+node index.js
+Run frontend
+npm run dev
+📌 Why I built this
 
-- **Speech-to-Text:** Users can use speech-to-text functionality to provide their answers, making the experience more interactive.
+I wanted something better than just reading interview questions online. Practicing by actually answering and getting feedback felt much more useful, so I built this project to solve that.
 
-- **Answer Evaluation:** InterviewBot evaluates the user's answers and provides feedback on their performance.
+🚧 Future improvements
+Better feedback (more detailed scoring)
+Save previous interviews
+Add authentication
+Improve UI
+🤝 Contributing
 
-- **Score and Feedback:** Users receive a score and detailed feedback on their responses, helping them identify areas for improvement.
-
-- **Video Recording:** InterviewBot allows users to record their interview sessions, enabling them to review and analyze their performance.
-
-## How to Use
-
-1. **Role and Experience Selection:** On the main page, users can select their desired role and experience level.
-
-2. **Start Interview:** Click the "Start Interview" button to begin the mock interview.
-
-3. **Answer the Questions:** InterviewBot will present interview questions one at a time. Users can type or use speech-to-text to provide their answers.
-
-4. **Recording (Optional):** Users can choose to enable video recording during the interview.
-
-5. **Submit Answer:** After providing an answer, click the "Submit" button to receive feedback on the response.
-
-6. **Feedback and Score:** InterviewBot will display the user's score and provide detailed feedback on their performance.
-
-7. **Practice and Improve:** Users can continue practicing with new questions or repeat the interview to improve their interview skills.
-
-## Technologies Used
-
-- Frontend: React, Typescript, Tailwindcss
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- AI Model: OpenAI GPT-3.5,text-DaVinci-003
-
-## Installation
-
-1. Clone the repository: `git clone https://github.com/your-username/interview-bot.git`
-2. Install dependencies: `npm install`
-3. Start the server: `node server.js`
-4. Access the application in your web browser: `http://localhost:5000`
-
-## Contributing
-
-We welcome contributions from the community to enhance InterviewBot and make it a more valuable tool for interview preparation. If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Make your changes and commit them: `git commit -m "Add your feature"`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Submit a pull request.
-
+If you have ideas or improvements, feel free to contribute.
 
